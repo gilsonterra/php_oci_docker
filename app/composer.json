@@ -1,6 +1,6 @@
 {
-    "name": "oni/gestor",
-    "description": "OniGestor",
+    "name": "gilsonterra",
+    "description": "Docker PHP 7.3",
     "require": {
         "zircote/swagger-php": "^3.1",
         "php-di/php-di": "^6.3",
