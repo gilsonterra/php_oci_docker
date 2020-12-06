@@ -1,0 +1,17 @@
+{
+    "name": "oni/gestor",
+    "description": "OniGestor",
+    "require": {
+        "zircote/swagger-php": "^3.1",
+        "php-di/php-di": "^6.3",
+        "php-di/zf1-bridge": "^4.0",
+        "respect/validation": "^2.1",
+        "tracy/tracy": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gestor\\": "business/",            
+            "Test\\": "tests/"
+        }
+    }
+}
