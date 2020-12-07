@@ -1,9 +1,5 @@
 FROM php:7.3.23-fpm-stretch
 
-ADD files/instantclient-basic-linux.x64-19.6.0.0.0dbru.zip /opt
-ADD files/instantclient-sdk-linux.x64-19.6.0.0.0dbru.zip /opt
-ADD files/instantclient-sqlplus-linux.x64-19.6.0.0.0dbru.zip /opt
-
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
         libmcrypt-dev \
